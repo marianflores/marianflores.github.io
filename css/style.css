@@ -1,0 +1,141 @@
+@import url('bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+
+body {
+  background-color: #594DA8;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+
+h4 {
+  color: #31cf79;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.navigation-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-container ul li {
+  display: inline;
+  float: right;
+  padding: 4px;
+}
+
+.navigation-container ul li a {
+  text-decoration: none;
+  padding: 7px 20px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px transparent;
+  margin: 0px;
+  border-radius: 200px;
+}
+
+.navigation-container ul li a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-list {
+  background-color: transparent;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+}
+.about {
+  background-color: #fff;
+  padding: 100px 50px;
+  margin-top: 100px;
+  height: 50%;
+  color: #fe6192;
+  text-align: left;
+}
+
+.portfolio {
+  background-color: #eef5f9;
+  padding: 50px 50px;
+  height: 60%;
+  color: #423689;
+}
+
+#portfolio .row img {
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  margin-top: 25%;
+}
+
+#portfolio .row figcaption {
+  margin-top: 10%;
+  padding: 0px;
+  text-align: left;
+  color: #423689;
+}
+
+.social {
+  background-color: #594da8;
+  padding: 100px 70px 100px;
+  margin: #;
+  height: 40%;
+}
+
+.social-icons {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: @colorBase;
+}
+
+.social-icons h1 {
+  margin: 40px 0;
+}
+
+.social-icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+}
+
+.social-icons ul li a {
+  display: block;
+  font-size: 1.4em;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.social-icons ul li a i {
+  color: #31cf79;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.social-icons ul li a:hover i {
+  color: #275066;
+}
+
+.social-icons ul li a:focus i,
+.social-icons ul li a:active i {
+  transition: none;
+  color: #98e7bb;
+}
