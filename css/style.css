@@ -63,7 +63,7 @@ h4 {
 .about img {
   height: 200px;
   width: 50%;
-  align: center;
+  padding-left: 50px;
 }
 
 .portfolio {
