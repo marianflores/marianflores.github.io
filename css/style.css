@@ -61,6 +61,12 @@ h4 {
   text-align: left;
 }
 
+.about img {
+  height: 50px;
+  width: 50%;
+
+}
+
 .portfolio {
   background-color: #eef5f9;
   padding: 50px 50px;
