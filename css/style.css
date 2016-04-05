@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
 body {
-  background-color: #594DA8;
+  background-color: #f0f0e8;
   font-family: "PT Sans Narrow", sans-serif;
   padding: 0px;
   margin: 0px;
@@ -53,11 +53,11 @@ h4 {
 }
 
 .about {
-  background-color: #fff;
+  background-color: #a4ece1;
   padding: 100px 10px;
   margin-top: 100px;
   height: 50%;
-  color: #fe6192;
+  color: #e4cfca;
   text-align: left;
 }
 
@@ -68,10 +68,10 @@ h4 {
 }
 
 .portfolio {
-  background-color: #eef5f9;
+  background-color: #e29400;
   padding: 50px 50px;
   height: 60%;
-  color: #423689;
+  color: #03112c;
 }
 
 #portfolio .row img {
@@ -85,11 +85,11 @@ h4 {
   margin-top: 10%;
   padding: 0px;
   text-align: left;
-  color: #423689;
+  color: #5d681a;
 }
 
 .social {
-  background-color: #594da8;
+  background-color: #efcfda;
   padding: 100px 70px 100px;
   margin: #;
   height: 40%;
@@ -128,7 +128,7 @@ h4 {
 }
 
 .social-icons ul li a i {
-  color: #31cf79;
+  color: #eadfdb;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -137,11 +137,11 @@ h4 {
 }
 
 .social-icons ul li a:hover i {
-  color: #275066;
+  color: #eadfdb;
 }
 
 .social-icons ul li a:focus i,
 .social-icons ul li a:active i {
   transition: none;
-  color: #98e7bb;
+  color: #eadfdb;
 }
